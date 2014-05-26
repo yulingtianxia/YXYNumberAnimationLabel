@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4F8139719321AA9009F3815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F8139619321AA9009F3815 /* Foundation.framework */; };
+		A4F8139919321AA9009F3815 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F8139819321AA9009F3815 /* CoreGraphics.framework */; };
+		A4F8139B19321AA9009F3815 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F8139A19321AA9009F3815 /* UIKit.framework */; };
+		A4F813A119321AA9009F3815 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4F8139F19321AA9009F3815 /* InfoPlist.strings */; };
+		A4F813A319321AA9009F3815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F813A219321AA9009F3815 /* main.m */; };
+		A4F813A719321AA9009F3815 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F813A619321AA9009F3815 /* AppDelegate.m */; };
+		A4F813AA19321AA9009F3815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F813A819321AA9009F3815 /* Main.storyboard */; };
+		A4F813AD19321AA9009F3815 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F813AC19321AA9009F3815 /* ViewController.m */; };
+		A4F813AF19321AA9009F3815 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F813AE19321AA9009F3815 /* Images.xcassets */; };
+		A4F813B619321AA9009F3815 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F813B519321AA9009F3815 /* XCTest.framework */; };
+		A4F813B719321AAA009F3815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F8139619321AA9009F3815 /* Foundation.framework */; };
+		A4F813B819321AAA009F3815 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F8139A19321AA9009F3815 /* UIKit.framework */; };
+		A4F813C019321AAA009F3815 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4F813BE19321AAA009F3815 /* InfoPlist.strings */; };
+		A4F813C219321AAA009F3815 /* YXYNumberAnimationLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F813C119321AAA009F3815 /* YXYNumberAnimationLabelDemoTests.m */; };
+		A4F813D019321BBA009F3815 /* UILabel+YXYNumberAnimationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F813CF19321BBA009F3815 /* UILabel+YXYNumberAnimationLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4F813B919321AAA009F3815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F8138B19321AA9009F3815 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4F8139219321AA9009F3815;
+			remoteInfo = YXYNumberAnimationLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4F8139319321AA9009F3815 /* YXYNumberAnimationLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXYNumberAnimationLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F8139619321AA9009F3815 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4F8139819321AA9009F3815 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4F8139A19321AA9009F3815 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4F8139E19321AA9009F3815 /* YXYNumberAnimationLabelDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YXYNumberAnimationLabelDemo-Info.plist"; sourceTree = "<group>"; };
+		A4F813A019321AA9009F3815 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4F813A219321AA9009F3815 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4F813A419321AA9009F3815 /* YXYNumberAnimationLabelDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YXYNumberAnimationLabelDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A4F813A519321AA9009F3815 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4F813A619321AA9009F3815 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4F813A919321AA9009F3815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4F813AB19321AA9009F3815 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4F813AC19321AA9009F3815 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4F813AE19321AA9009F3815 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A4F813B419321AA9009F3815 /* YXYNumberAnimationLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXYNumberAnimationLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F813B519321AA9009F3815 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A4F813BD19321AAA009F3815 /* YXYNumberAnimationLabelDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YXYNumberAnimationLabelDemoTests-Info.plist"; sourceTree = "<group>"; };
+		A4F813BF19321AAA009F3815 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4F813C119321AAA009F3815 /* YXYNumberAnimationLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYNumberAnimationLabelDemoTests.m; sourceTree = "<group>"; };
+		A4F813CE19321BBA009F3815 /* UILabel+YXYNumberAnimationLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YXYNumberAnimationLabel.h"; sourceTree = "<group>"; };
+		A4F813CF19321BBA009F3815 /* UILabel+YXYNumberAnimationLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YXYNumberAnimationLabel.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4F8139019321AA9009F3815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F8139919321AA9009F3815 /* CoreGraphics.framework in Frameworks */,
+				A4F8139B19321AA9009F3815 /* UIKit.framework in Frameworks */,
+				A4F8139719321AA9009F3815 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F813B119321AA9009F3815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F813B619321AA9009F3815 /* XCTest.framework in Frameworks */,
+				A4F813B819321AAA009F3815 /* UIKit.framework in Frameworks */,
+				A4F813B719321AAA009F3815 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4F8138A19321AA9009F3815 = {
+			isa = PBXGroup;
+			children = (
+				A4F8139C19321AA9009F3815 /* YXYNumberAnimationLabelDemo */,
+				A4F813BB19321AAA009F3815 /* YXYNumberAnimationLabelDemoTests */,
+				A4F8139519321AA9009F3815 /* Frameworks */,
+				A4F8139419321AA9009F3815 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4F8139419321AA9009F3815 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4F8139319321AA9009F3815 /* YXYNumberAnimationLabelDemo.app */,
+				A4F813B419321AA9009F3815 /* YXYNumberAnimationLabelDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4F8139519321AA9009F3815 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4F8139619321AA9009F3815 /* Foundation.framework */,
+				A4F8139819321AA9009F3815 /* CoreGraphics.framework */,
+				A4F8139A19321AA9009F3815 /* UIKit.framework */,
+				A4F813B519321AA9009F3815 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4F8139C19321AA9009F3815 /* YXYNumberAnimationLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A4F813A519321AA9009F3815 /* AppDelegate.h */,
+				A4F813A619321AA9009F3815 /* AppDelegate.m */,
+				A4F813A819321AA9009F3815 /* Main.storyboard */,
+				A4F813AB19321AA9009F3815 /* ViewController.h */,
+				A4F813AC19321AA9009F3815 /* ViewController.m */,
+				A4F813AE19321AA9009F3815 /* Images.xcassets */,
+				A4F8139D19321AA9009F3815 /* Supporting Files */,
+				A4F813CE19321BBA009F3815 /* UILabel+YXYNumberAnimationLabel.h */,
+				A4F813CF19321BBA009F3815 /* UILabel+YXYNumberAnimationLabel.m */,
+			);
+			path = YXYNumberAnimationLabelDemo;
+			sourceTree = "<group>";
+		};
+		A4F8139D19321AA9009F3815 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4F8139E19321AA9009F3815 /* YXYNumberAnimationLabelDemo-Info.plist */,
+				A4F8139F19321AA9009F3815 /* InfoPlist.strings */,
+				A4F813A219321AA9009F3815 /* main.m */,
+				A4F813A419321AA9009F3815 /* YXYNumberAnimationLabelDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4F813BB19321AAA009F3815 /* YXYNumberAnimationLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4F813C119321AAA009F3815 /* YXYNumberAnimationLabelDemoTests.m */,
+				A4F813BC19321AAA009F3815 /* Supporting Files */,
+			);
+			path = YXYNumberAnimationLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		A4F813BC19321AAA009F3815 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4F813BD19321AAA009F3815 /* YXYNumberAnimationLabelDemoTests-Info.plist */,
+				A4F813BE19321AAA009F3815 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4F8139219321AA9009F3815 /* YXYNumberAnimationLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F813C519321AAA009F3815 /* Build configuration list for PBXNativeTarget "YXYNumberAnimationLabelDemo" */;
+			buildPhases = (
+				A4F8138F19321AA9009F3815 /* Sources */,
+				A4F8139019321AA9009F3815 /* Frameworks */,
+				A4F8139119321AA9009F3815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXYNumberAnimationLabelDemo;
+			productName = YXYNumberAnimationLabelDemo;
+			productReference = A4F8139319321AA9009F3815 /* YXYNumberAnimationLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4F813B319321AA9009F3815 /* YXYNumberAnimationLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F813C819321AAA009F3815 /* Build configuration list for PBXNativeTarget "YXYNumberAnimationLabelDemoTests" */;
+			buildPhases = (
+				A4F813B019321AA9009F3815 /* Sources */,
+				A4F813B119321AA9009F3815 /* Frameworks */,
+				A4F813B219321AA9009F3815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4F813BA19321AAA009F3815 /* PBXTargetDependency */,
+			);
+			name = YXYNumberAnimationLabelDemoTests;
+			productName = YXYNumberAnimationLabelDemoTests;
+			productReference = A4F813B419321AA9009F3815 /* YXYNumberAnimationLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4F8138B19321AA9009F3815 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "杨萧玉";
+				TargetAttributes = {
+					A4F813B319321AA9009F3815 = {
+						TestTargetID = A4F8139219321AA9009F3815;
+					};
+				};
+			};
+			buildConfigurationList = A4F8138E19321AA9009F3815 /* Build configuration list for PBXProject "YXYNumberAnimationLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4F8138A19321AA9009F3815;
+			productRefGroup = A4F8139419321AA9009F3815 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4F8139219321AA9009F3815 /* YXYNumberAnimationLabelDemo */,
+				A4F813B319321AA9009F3815 /* YXYNumberAnimationLabelDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4F8139119321AA9009F3815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F813AF19321AA9009F3815 /* Images.xcassets in Resources */,
+				A4F813A119321AA9009F3815 /* InfoPlist.strings in Resources */,
+				A4F813AA19321AA9009F3815 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F813B219321AA9009F3815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F813C019321AAA009F3815 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4F8138F19321AA9009F3815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F813D019321BBA009F3815 /* UILabel+YXYNumberAnimationLabel.m in Sources */,
+				A4F813AD19321AA9009F3815 /* ViewController.m in Sources */,
+				A4F813A719321AA9009F3815 /* AppDelegate.m in Sources */,
+				A4F813A319321AA9009F3815 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F813B019321AA9009F3815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F813C219321AAA009F3815 /* YXYNumberAnimationLabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4F813BA19321AAA009F3815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4F8139219321AA9009F3815 /* YXYNumberAnimationLabelDemo */;
+			targetProxy = A4F813B919321AAA009F3815 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4F8139F19321AA9009F3815 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F813A019321AA9009F3815 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A4F813A819321AA9009F3815 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F813A919321AA9009F3815 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4F813BE19321AAA009F3815 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F813BF19321AAA009F3815 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4F813C319321AAA009F3815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4F813C419321AAA009F3815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4F813C619321AAA009F3815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YXYNumberAnimationLabelDemo/YXYNumberAnimationLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "YXYNumberAnimationLabelDemo/YXYNumberAnimationLabelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4F813C719321AAA009F3815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YXYNumberAnimationLabelDemo/YXYNumberAnimationLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "YXYNumberAnimationLabelDemo/YXYNumberAnimationLabelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A4F813C919321AAA009F3815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YXYNumberAnimationLabelDemo.app/YXYNumberAnimationLabelDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YXYNumberAnimationLabelDemo/YXYNumberAnimationLabelDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YXYNumberAnimationLabelDemoTests/YXYNumberAnimationLabelDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A4F813CA19321AAA009F3815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YXYNumberAnimationLabelDemo.app/YXYNumberAnimationLabelDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YXYNumberAnimationLabelDemo/YXYNumberAnimationLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "YXYNumberAnimationLabelDemoTests/YXYNumberAnimationLabelDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4F8138E19321AA9009F3815 /* Build configuration list for PBXProject "YXYNumberAnimationLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F813C319321AAA009F3815 /* Debug */,
+				A4F813C419321AAA009F3815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F813C519321AAA009F3815 /* Build configuration list for PBXNativeTarget "YXYNumberAnimationLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F813C619321AAA009F3815 /* Debug */,
+				A4F813C719321AAA009F3815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4F813C819321AAA009F3815 /* Build configuration list for PBXNativeTarget "YXYNumberAnimationLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F813C919321AAA009F3815 /* Debug */,
+				A4F813CA19321AAA009F3815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4F8138B19321AA9009F3815 /* Project object */;
+}
