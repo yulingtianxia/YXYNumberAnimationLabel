@@ -462,6 +462,7 @@
 				A4F813C719321AAA009F3815 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4F813C819321AAA009F3815 /* Build configuration list for PBXNativeTarget "YXYNumberAnimationLabelDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +471,7 @@
 				A4F813CA19321AAA009F3815 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

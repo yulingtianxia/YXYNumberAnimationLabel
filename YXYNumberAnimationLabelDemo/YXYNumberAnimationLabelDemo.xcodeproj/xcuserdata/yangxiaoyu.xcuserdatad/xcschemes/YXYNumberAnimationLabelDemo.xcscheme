@@ -38,6 +38,16 @@
                ReferencedContainer = "container:YXYNumberAnimationLabelDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A4CD8A821934706800735211"
+               BuildableName = "NumberLabelLibTests.xctest"
+               BlueprintName = "NumberLabelLibTests"
+               ReferencedContainer = "container:YXYNumberAnimationLabelDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
