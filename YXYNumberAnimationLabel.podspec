@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/yulingtianxia/YXYNumberAnimationLabel"
   
   s.license      = 'MIT'
-  s.author       = { "Orta Therox" => "yulingtianxia@gmail.com" }
+  s.author       = { "YangXiaoyu" => "yulingtianxia@gmail.com" }
   s.social_media_url = "http://twitter.com/yulingtianxia"
   s.source       = { :git => "https://github.com/yulingtianxia/YXYNumberAnimationLabel.git", :tag => s.version.to_s }
 
