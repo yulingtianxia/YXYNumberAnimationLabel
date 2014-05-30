@@ -18,6 +18,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self.numberLabel setAnimationSpeed:200];
+    [self.numberLabel setNumberSizeBlock:^(double number) {
+        self.numberLabel.font = [UIFont fontWithName:self.numberLabel.font.fontName size:30.0];
+    }];
     [self.numberLabel changeFromNumber:1 toNumber:999999999 withAnimationTime:0.001];
 }
 
