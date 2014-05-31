@@ -10,7 +10,7 @@
 typedef void(^NumberSizeBlock)(double number);
 
 @interface UILabel (YXYNumberAnimationLabel)
-@property double AnimationSpeed;
+
 -(void)autochangeFontsize:(double) number;
 -(void)changeFromNumber:(double) originalnumber toNumber:(double) newnumber withAnimationTime:(NSTimeInterval)timeSpan;
 -(double)AnimationSpeed;

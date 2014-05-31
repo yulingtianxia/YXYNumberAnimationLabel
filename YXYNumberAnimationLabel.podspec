@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "YXYNumberAnimationLabel"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "一个可以动起来的数字Label"
   s.description  = <<-DESC
                     通过设置数字变化的插值来展现动画效果
