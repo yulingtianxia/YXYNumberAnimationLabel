@@ -43,11 +43,11 @@
         
     } completion:^(BOOL finished) {
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(timeSpan * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            if (labs((newnumber-originalnumber)/self.AnimationSpeed)<1) {
+            if (labs((newnumber-originalnumber)/self.animationSpeed)<1) {
                 [self changeFromNumber:newnumber toNumber:newnumber withAnimationTime:timeSpan];
             }
-            else if(labs((newnumber-originalnumber)/self.AnimationSpeed)<labs(newnumber-originalnumber)){
-                [self changeFromNumber:originalnumber+(newnumber-originalnumber)/self.AnimationSpeed toNumber:newnumber withAnimationTime:timeSpan];
+            else if(labs((newnumber-originalnumber)/self.animationSpeed)<labs(newnumber-originalnumber)){
+                [self changeFromNumber:originalnumber+(newnumber-originalnumber)/self.animationSpeed toNumber:newnumber withAnimationTime:timeSpan];
                 
             }
             else if(originalnumber==newnumber){
@@ -60,8 +60,8 @@
     
 }
 
--(double)AnimationSpeed{
-    double speed = ((NSNumber *)objc_getAssociatedObject(self, @selector(AnimationSpeed))).doubleValue;
+-(double)animationSpeed{
+    double speed = ((NSNumber *)objc_getAssociatedObject(self, @selector(animationSpeed))).doubleValue;
     if (!speed) {
         speed = 100;
     }
@@ -69,7 +69,7 @@
 }
 
 -(void)setAnimationSpeed:(double)speed{
-    objc_setAssociatedObject(self, @selector(AnimationSpeed), [NSNumber numberWithDouble:speed], OBJC_ASSOCIATION_COPY_NONATOMIC);
+    objc_setAssociatedObject(self, @selector(animationSpeed), [NSNumber numberWithDouble:speed], OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
 -(NumberSizeBlock)numberSizeBlock{

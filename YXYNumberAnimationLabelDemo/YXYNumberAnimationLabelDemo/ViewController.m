@@ -23,6 +23,7 @@
         self.numberLabel.font = [UIFont fontWithName:self.numberLabel.font.fontName size:30.0];
     }];
     [self.numberLabel changeFromNumber:1 toNumber:999999999 withAnimationTime:0.001];
+    NSLog(@"%f",self.numberLabel.animationSpeed);
 }
 
 - (void)didReceiveMemoryWarning
