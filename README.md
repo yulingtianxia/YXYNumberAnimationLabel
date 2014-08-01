@@ -1,5 +1,6 @@
-YXYNumberAnimationLabel
+YXYNumberAnimationLabel [![Build Status](https://travis-ci.org/yulingtianxia/YXYNumberAnimationLabel.svg?branch=master)](https://travis-ci.org/yulingtianxia/YXYNumberAnimationLabel)  
 =======================
+
 
 一个数字动画Label  
 
