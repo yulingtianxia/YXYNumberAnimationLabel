@@ -5,6 +5,8 @@ YXYNumberAnimationLabel
 
 ![](demo.gif)
 
+##使用方法
+
 设置AnimationSpeed属性的值可以调节动画变化速度，getter/setter方法如下：  
 
 ``` 
@@ -19,3 +21,16 @@ YXYNumberAnimationLabel
         self.numberLabel.font = [UIFont fontWithName:self.numberLabel.font.fontName size:30.0];
 }];
 ``` 
+
+##安装
+
+###CocoaPods Installation
+在Podfile中加入：  
+
+``` 
+pod 'YXYNumberAnimationLabel'
+``` 
+
+###Manual Installation
+
+将YXYNumberAnimationLabel文件夹拖拽到你的工程
