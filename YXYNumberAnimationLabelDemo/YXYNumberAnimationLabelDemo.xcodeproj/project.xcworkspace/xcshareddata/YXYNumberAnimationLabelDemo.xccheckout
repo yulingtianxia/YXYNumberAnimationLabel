@@ -10,29 +10,29 @@
 	<string>YXYNumberAnimationLabelDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>40B5356D-6ABC-48DC-BE84-B5547FF7F9B9</key>
+		<key>05519059474E1B0EE864C1525115A3EDCC2DFFC5</key>
 		<string>https://github.com/yulingtianxia/YXYNumberAnimationLabel.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>YXYNumberAnimationLabelDemo/YXYNumberAnimationLabelDemo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>40B5356D-6ABC-48DC-BE84-B5547FF7F9B9</key>
+		<key>05519059474E1B0EE864C1525115A3EDCC2DFFC5</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/yulingtianxia/YXYNumberAnimationLabel.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>40B5356D-6ABC-48DC-BE84-B5547FF7F9B9</string>
+	<string>05519059474E1B0EE864C1525115A3EDCC2DFFC5</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>40B5356D-6ABC-48DC-BE84-B5547FF7F9B9</string>
+			<string>05519059474E1B0EE864C1525115A3EDCC2DFFC5</string>
 			<key>IDESourceControlWCCName</key>
 			<string>YXYNumberAnimationLabel</string>
 		</dict>

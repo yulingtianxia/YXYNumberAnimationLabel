@@ -23,6 +23,12 @@ YXYNumberAnimationLabel [![Build Status](https://travis-ci.org/yulingtianxia/YXY
 }];
 ``` 
 
+最后调用`changeFromNumber: toNumber: withAnimationTime:`方法来让数字动起来：  
+
+``` 
+[self.numberLabel changeFromNumber:1 toNumber:999999999 withAnimationTime:0.001];
+``` 
+
 ##安装
 
 ###CocoaPods Installation
